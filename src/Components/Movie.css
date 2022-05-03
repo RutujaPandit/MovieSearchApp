@@ -1,0 +1,61 @@
+.container{
+    margin: 20px;
+   
+}
+.card{
+    margin-left: 55px;
+    border-radius: 20px;
+}
+.txt{
+   color: white !important;
+
+}
+#btn{
+    padding:5px 15px 5px 15px;  
+     border: none;
+     border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn1{
+    margin-left: 15px;
+    padding:5px 15px 5px 15px;
+     border: none;
+     border-radius: 5px;
+    font-weight: bold;
+    opacity: 0.2;
+}
+
+#btn:hover{
+    opacity: 0.2;
+}
+
+#btn1:hover{
+    opacity: 0.8;
+}
+
+.Actors{
+    display: inline;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.Genre{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 600px) {
+    .container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
